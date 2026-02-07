@@ -9,7 +9,6 @@ The core logic is built using [LangGraph](https://langchain-ai.github.io/langgra
 - **Code 1**: A console-based runner with human-in-the-loop feedback via command-line inputs.
 - **Code 2**: An enhanced version with a web-based UI using [Gradio](https://www.gradio.app/) for file uploads, feedback, and PDF downloads.
 
-This tool is ideal for researchers converting papers to presentations quickly, with AI-assisted summarization and visualization suggestions.
 
 ## Features
 
@@ -30,19 +29,6 @@ This tool is ideal for researchers converting papers to presentations quickly, w
 - Supported Models: Google Gemini Flash (default), Claude 3.5 Sonnet, or GPT-4o.
 
 No additional package installations are needed beyond the above (use `pip install langgraph langchain-openai gradio`).
-
-## Installation
-
-1. Clone or download the repository/notebook.
-2. Install dependencies:
-   ```
-   pip install langgraph langchain-openai gradio
-   ```
-3. For TeX compilation (e.g., in Colab or Linux):
-   ```
-   sudo apt update && sudo apt install -y texlive texlive-latex-extra texlive-fonts-recommended
-   ```
-4. Add your OpenRouter API key to the `OPENROUTER_API_KEY` variable in the code.
 
 ## Usage
 
@@ -78,9 +64,9 @@ This version provides a browser-based interface.
 
 ## Demo
 
-A live demo is available at: https://577b5ce9edb2bf5ee3.gradio.live/
+A live demo is made available on running the gradlio code.
 
-Upload your tar archive and generate presentations interactively. (Note: Demo may have usage limits or expire; run locally for production use.)
+Upload your tar archive and generate presentations interactively.
 
 ## Limitations
 
